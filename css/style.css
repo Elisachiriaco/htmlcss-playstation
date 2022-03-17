@@ -5,15 +5,20 @@
     display: inline-block;
     border-radius:40px;
     padding: 10px 20px;
-    color: #fff;
     text-decoration: none;
     margin-top: 10px;
 }
 .msred{
     background-color:#cd3d0f;
+    color: #fff;
 }
 .msblue{
     background-color:#2d64e6;
+    color: #fff;
+}
+.mslight{
+    background-color: #d9dadc;
+    color: #4877e4;
 }
 /* header */
 header{
@@ -93,4 +98,14 @@ h2{
 }
 #playstation4 img{
     width: 100%;
+}
+#playstationplus{
+    background-color: #bebcbb;
+}
+#playstationplus img{
+    width:100%;
+}
+#playstationplus .logo{
+    width: 60%;
+    padding-bottom: 20px;
 }
