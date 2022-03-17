@@ -70,3 +70,15 @@ h1{
 h2{
     padding-bottom: 1rem;
 }
+#game{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    min-height: 546px;
+    color: white;
+}
+#game img{
+    width: 70%;
+    padding: 20px 0;
+}
