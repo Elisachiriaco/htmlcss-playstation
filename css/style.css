@@ -138,4 +138,21 @@ h2{
 /* footer */
 footer{
     background-color: #00439c;
+    color: white;
+    padding: 40px 0;
+}
+footer img{
+    padding-bottom:10px;
+}
+.language img{
+    width: 2%;
+}
+footer li{
+    list-style-type: none;
+}
+.sie{
+    width: 12%;
+}
+footer a{
+    color: white;
 }
