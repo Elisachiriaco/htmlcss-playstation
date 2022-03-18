@@ -20,6 +20,11 @@
     background-color: #d9dadc;
     color: #4877e4;
 }
+.mswhite{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
 /* header */
 header{
     width: 100%;
@@ -102,10 +107,11 @@ h2{
 #playstationplus{
     background-color: #bebcbb;
 }
-#playstationplus img{
+#playstationplus img,
+#playstationnow img{
     width:100%;
 }
-#playstationplus .logo{
+#playstationplus .logo,#playstationnow .logo{
     width: 60%;
     padding-bottom: 20px;
 }
@@ -114,4 +120,22 @@ h2{
 }
 #store img{
     width: 100%;
+}
+#playstationnow{
+    background-color: #161c3b;
+    color: white;
+}
+#social img{
+    width: 100%;
+}
+#social{
+    padding: 70px 0;
+}
+#social h5{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+/* footer */
+footer{
+    background-color: #00439c;
 }
