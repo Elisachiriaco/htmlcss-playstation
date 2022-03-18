@@ -169,3 +169,19 @@ footer li{
 footer a{
     color: white;
 }
+/* hover */
+a:hover{
+    border: 5px solid white;
+    transition: 1s;
+}
+.cards img:hover{
+    position: relative;
+    top:-10px;
+    transition: 2s;
+    box-shadow: 5px 10px 8px #888888;
+    opacity:1;
+}
+.cards img{
+    opacity: 0.6;
+    cursor: pointer;
+}
