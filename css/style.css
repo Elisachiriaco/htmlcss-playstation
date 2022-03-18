@@ -25,6 +25,10 @@
     color: black;
     font-weight: 500;
 }
+.msblack{
+    background-color: #363636;
+    color: white;
+}
 /* header */
 header{
     width: 100%;
@@ -46,6 +50,14 @@ header{
 .header-bottom{
     background-color: white;
 }
+li{
+    list-style-type: none;
+}
+.search i{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
 /* main */
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
