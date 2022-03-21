@@ -58,7 +58,26 @@ li{
     margin-left: 15px;
     font-size: 25px;
 }
-
+/* navbar */
+.my_button{
+    border-radius:15px;
+} 
+.my_dropdown_li{
+    position:static;
+}
+.my_dropdown_ul{
+    border: none;
+}
+.my_dropdown_ul[data-bs-popper]{
+    margin-top: 0;
+    border-radius: 0;
+    width: 100%;
+}
+.nav_li_dropdown_items li{
+    color: #2d64e6;
+    list-style-type: disc;
+    cursor: pointer;
+}
 /* main */
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
@@ -114,9 +133,6 @@ h2{
     width: 100%;
     border-radius: 10px;
 }
-#playstation4 img{
-    width: 100%;
-}
 #playstationplus{
     background-color: #bebcbb;
 }
@@ -131,15 +147,12 @@ h2{
 #store{
     padding-bottom: 50px;
 }
-#store img{
+#store img,#playstation4 img,#social img{
     width: 100%;
 }
 #playstationnow{
     background-color: #161c3b;
     color: white;
-}
-#social img{
-    width: 100%;
 }
 #social{
     padding: 70px 0;
@@ -166,22 +179,67 @@ footer li{
 .sie{
     width: 12%;
 }
+.info{
+    color: white;
+    text-decoration: underline;
+}
 footer a{
     color: white;
+    text-decoration: none;
 }
 /* hover */
-a:hover{
-    border: 5px solid white;
-    transition: 1s;
-}
 .cards img:hover{
     position: relative;
     top:-10px;
-    transition: 2s;
+    transition: 0.5s;
     box-shadow: 5px 10px 8px #888888;
     opacity:1;
 }
 .cards img{
     opacity: 0.6;
     cursor: pointer;
+}
+#social img:hover{
+    cursor: pointer;
+}
+.msbtn:hover{ 
+    outline: 2px solid #2d64e6;
+    outline-offset: 2px;
+    color: white;
+}
+.msred:hover{
+    outline:2px solid #cd3d0f;
+    color: white;
+}
+.msblack:hover{
+    opacity: 0.5;
+    outline: none;
+}
+.mslight:hover{
+    outline:2px solid #d9dadc;
+    color: #4877e4;
+}
+.mswhite:hover{
+    outline:2px solid white;
+    color: black;
+}
+.my_dropdown_ul .my_button:hover,
+#playstation5 .my_button:hover{
+    outline: 3px solid #2d64e6;
+    outline-offset: 2px;
+    cursor: pointer;
+}
+.mycard img:hover{
+    position: relative;
+    top: 2px;
+    transition: 0.2s;
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+}
+.discount img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#social img:hover{
+    transform:scale(1.1);
 }
